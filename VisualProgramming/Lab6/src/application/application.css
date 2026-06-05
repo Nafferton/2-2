@@ -1,0 +1,46 @@
+.root-pane {
+    -fx-background-color: #1c1c1c;
+    -fx-background-radius: 28px;
+}
+
+.history-label {
+    -fx-text-fill: #a5a5a5;
+    -fx-font-size: 30px;
+    -fx-font-family: "Arial";
+}
+
+.result-label {
+    -fx-text-fill: white;
+    -fx-font-size: 70px;
+    -fx-font-family: "Arial";
+}
+
+.button {
+    -fx-background-radius: 50em; /* Makes the buttons perfectly round */
+    -fx-font-size: 20px;
+    -fx-font-family: "Arial";
+    -fx-cursor: hand;
+}
+
+.button:pressed {
+    -fx-opacity: 0.7;
+}
+
+/* Dark Gray Numbers */
+.btn-number {
+    -fx-background-color: #333335;
+    -fx-text-fill: white;
+}
+
+/* Light Gray Top Row */
+.btn-action {
+    -fx-background-color: #a5a5a5;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+}
+
+/* Orange Right Column */
+.btn-operator {
+    -fx-background-color: #ff9f0a;
+    -fx-text-fill: white;
+}
